@@ -1,0 +1,7 @@
+<Project>
+  <PropertyGroup>
+    <SolidWorksInteropDir Condition="'$(SolidWorksInteropDir)' == '' and Exists('$(MSBuildThisFileDirectory)lib\SolidWorks.Interop.sldworks.dll')">$(MSBuildThisFileDirectory)lib</SolidWorksInteropDir>
+    <SolidWorksInteropDir Condition="'$(SolidWorksInteropDir)' == '' and Exists('C:\Program Files\SOLIDWORKS Corp\SOLIDWORKS\api\redist\SolidWorks.Interop.sldworks.dll')">C:\Program Files\SOLIDWORKS Corp\SOLIDWORKS\api\redist</SolidWorksInteropDir>
+    <SolidWorksInteropDir Condition="'$(SolidWorksInteropDir)' == '' and Exists('D:\Program Files\SOLIDWORKS Corp\SOLIDWORKS\api\redist\SolidWorks.Interop.sldworks.dll')">D:\Program Files\SOLIDWORKS Corp\SOLIDWORKS\api\redist</SolidWorksInteropDir>
+  </PropertyGroup>
+</Project>

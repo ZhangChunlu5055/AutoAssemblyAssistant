@@ -1,0 +1,17 @@
+**/bin/
+**/obj/
+.vs/
+.idea/
+*.user
+*.suo
+artifacts/
+release*/
+lib/*.dll
+*.log
+install-error.txt
+*.SLDASM
+*.SLDPRT
+*.SLDDRW
+~$*
+.env
+.env.*

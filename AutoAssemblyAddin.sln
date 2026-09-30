@@ -1,0 +1,31 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoAssemblyAddin", "src\AutoAssemblyAddin\AutoAssemblyAddin.csproj", "{B8E5F2A1-4C3D-4E5F-9A1B-2C3D4E5F6789}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{F35AF106-DBD5-45E2-8585-0479583A90A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoAssemblyAddin.Tests", "tests\AutoAssemblyAddin.Tests\AutoAssemblyAddin.Tests.csproj", "{A15168B9-F80B-4CDA-A105-F72D02B40153}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8E5F2A1-4C3D-4E5F-9A1B-2C3D4E5F6789}.Debug|x64.ActiveCfg = Debug|x64
+		{B8E5F2A1-4C3D-4E5F-9A1B-2C3D4E5F6789}.Debug|x64.Build.0 = Debug|x64
+		{B8E5F2A1-4C3D-4E5F-9A1B-2C3D4E5F6789}.Release|x64.ActiveCfg = Release|x64
+		{B8E5F2A1-4C3D-4E5F-9A1B-2C3D4E5F6789}.Release|x64.Build.0 = Release|x64
+		{A15168B9-F80B-4CDA-A105-F72D02B40153}.Debug|x64.ActiveCfg = Debug|x64
+		{A15168B9-F80B-4CDA-A105-F72D02B40153}.Debug|x64.Build.0 = Debug|x64
+		{A15168B9-F80B-4CDA-A105-F72D02B40153}.Release|x64.ActiveCfg = Release|x64
+		{A15168B9-F80B-4CDA-A105-F72D02B40153}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A15168B9-F80B-4CDA-A105-F72D02B40153} = {F35AF106-DBD5-45E2-8585-0479583A90A9}
+	EndGlobalSection
+EndGlobal
+
